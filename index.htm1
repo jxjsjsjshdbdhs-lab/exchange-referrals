@@ -173,8 +173,7 @@
         const telegramId = user.id;
 
         const referralLink =
-            "https://t.me/YOUR_BOT_USERNAME?start=" + telegramId;
-
+            "https://t.me/GETREFERRALSsbot?start=" + telegramId;
         document.getElementById("referralLink").textContent =
             referralLink;
     }
